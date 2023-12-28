@@ -1,0 +1,122 @@
+.header__title {
+  padding: 16px 0px;
+  background: #dbbcc5;
+}
+.header__title h1 {
+  text-align: center;
+  color: #000000c3;
+  letter-spacing: 0.2px;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.header__info {
+  width: 95%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header__social-links {
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  nav {
+    display: flex;
+    gap: 6px;
+  }
+}
+.header__logo {
+  position: relative;
+  transform: scale(0.3, 0.2);
+}
+.header__logo img {
+  position: absolute;
+  top: -240px;
+  left: -170px;
+}
+.header__add-application {
+  display: flex;
+}
+.header__add-application div p {
+  color: #000000d4;
+  font-size: 14px;
+  text-align: right;
+  margin: 3px 0;
+}
+.header__add-application div button {
+  margin-top: 25px;
+  margin-left: 30px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  color: #000000d4;
+  background: #dbbcc5;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header__add-application div button:hover {
+  color: #000000e0;
+  background: #dbb6c0;
+}
+.header__navigation {
+  padding-top: 50px;
+  text-align: center;
+}
+.header__navigation a {
+  margin: 0 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+}
+.header__swiper {
+  position: relative;
+  padding: 20px 0px;
+}
+.header__swiper .swiper-shadow {
+  position: absolute;
+  width: 100%;
+  height: 75vh;
+  background: #00000085;
+}
+.header__swiper .swiper-title {
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header__swiper .swiper-title h2 {
+  letter-spacing: 1.5px;
+  font-size: 32px;
+  font-weight: 500;
+  color: #f7f7f7;
+}
+.header__swiper .swiper-title p {
+  color: #e1e1e1;
+  width: 100%;
+  margin: 30px auto;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+.header__swiper img {
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+}
+.swiper-pagination-bullet {
+  border: 1px solid #e1e1e1 !important;
+  background: rgb(255, 255, 255) !important;
+}
+.swiper-pagination-bullet-active {
+  background: #e1e1e1 !important;
+}
