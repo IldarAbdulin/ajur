@@ -3,7 +3,7 @@ import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import Logo from '../../assets/logo.jpg';
+import Logo from '../../assets/logo3.jpg';
 import Image1 from '../../assets/projects/1.jpg';
 import Image2 from '../../assets/projects/2.jpg';
 import Image3 from '../../assets/projects/8.jpg';

@@ -29,12 +29,14 @@
 }
 .header__logo {
   position: relative;
-  transform: scale(0.3, 0.2);
+  cursor: pointer;
 }
 .header__logo img {
+  border: 1px solid #00000030;
+  border-radius: 10px;
   position: absolute;
-  top: -240px;
-  left: -170px;
+  top: -17px;
+  left: -65px;
 }
 .header__add-application {
   display: flex;
@@ -76,7 +78,7 @@
 }
 .header__swiper {
   position: relative;
-  padding: 20px 0px;
+  margin-top: 30px;
 }
 .header__swiper .swiper-shadow {
   position: absolute;

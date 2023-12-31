@@ -1,0 +1,20 @@
+.parallax {
+  height: 65vh;
+}
+.parallax-items {
+  width: 80%;
+  margin: 0 auto;
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parallax-item {
+  position: relative;
+  width: 350px;
+  overflow: hidden;
+}
+.parallax-item img {
+  width: 100%;
+  height: 50vh;
+}
