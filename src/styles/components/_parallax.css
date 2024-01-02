@@ -1,10 +1,10 @@
 .parallax {
-  height: 65vh;
+  text-align: center;
 }
 .parallax-items {
   width: 80%;
   margin: 0 auto;
-  height: 65vh;
+  height: 75vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,5 +16,15 @@
 }
 .parallax-item img {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
+}
+.parallax button {
+  margin: 30px 0 -20px 0;
+  background: #dbbcc5;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
 }

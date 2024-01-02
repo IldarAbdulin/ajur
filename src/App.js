@@ -1,11 +1,10 @@
-import { Header, About, Parallax } from './components'
+import { Header, Main } from './components'
 
 function App() {
   return (
     <>
       <Header />
-      <About />
-      <Parallax />
+      <Main />
     </>
   );
 }
