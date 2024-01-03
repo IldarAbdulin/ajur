@@ -4,6 +4,7 @@ import About from './about/About';
 import ParallaxEffect from './parallax/Parallax';
 import Sewing from './sewing/Sewing';
 import Services from './services/Services';
+import Price from './price/Price';
 
 import { Parallax } from 'react-parallax';
 import FirstImage from '../../assets/projects/1.jpg';
@@ -14,6 +15,10 @@ import FifthImage from '../../assets/projects/5.jpg';
 import SixthImage from '../../assets/projects/6.jpg';
 import SeventhImage from '../../assets/projects/7.jpg';
 import EighthImage from '../../assets/projects/8.jpg';
+import NinethImage from '../../assets/projects/9.jpg';
+import TenthImage from '../../assets/projects/10.jpg';
+import EleventhImage from '../../assets/projects/11.jpg';
+import TwelvthImage from '../../assets/projects/12.jpg';
 
 const firstParallax = [
   { id: 1, image: FirstImage, alt: '1' },
@@ -28,7 +33,22 @@ const secondParallax = [
 const thirdParallax = [
   { id: 1, image: SeventhImage, alt: '1' },
   { id: 2, image: EighthImage, alt: '2' },
-  { id: 3, image: SecondImage, alt: '3' },
+  { id: 3, image: NinethImage, alt: '3' },
+];
+const fourthParallax = [
+  { id: 1, image: TenthImage, alt: '1' },
+  { id: 2, image: EleventhImage, alt: '2' },
+  { id: 3, image: TwelvthImage, alt: '3' },
+];
+const fifththParallax = [
+  { id: 1, image: FirstImage, alt: '1' },
+  { id: 2, image: SecondImage, alt: '2' },
+  { id: 3, image: ThirdImage, alt: '3' },
+  { id: 4, image: FourthImage, alt: '1' },
+  { id: 5, image: FifthImage, alt: '2' },
+  { id: 6, image: EighthImage, alt: '2' },
+  { id: 7, image: NinethImage, alt: '3' },
+  { id: 8, image: TenthImage, alt: '1' },
 ];
 
 const sewingArr = [
@@ -215,7 +235,50 @@ export default function Main() {
           </div>
         </div>
       </Parallax>
-      <About />
+      <Price />
+      <Parallax
+        bgImage={require('../../assets/bg-lines.avif')}
+        bgImageAlt="Картинка на фоне"
+        strength={600}
+      >
+        <div className="parallax">
+          <div className="parallax-items">
+            {fourthParallax.map((img) => (
+              <ParallaxEffect key={img.id} image={img.image} alt={img.alt} />
+            ))}
+          </div>
+        </div>
+      </Parallax>
+      <section className="embroidery">
+        <h2>ВЫШИВКА И ПЕЧАТЬ</h2>
+        <p>
+          Наше производство сотрудничает с подрядчиками по вышивке и печати
+          любой сложности.
+        </p>
+        <p>
+          Специалисты помогут в разработке макетов и программ, пришлют образцы
+          на утверждение и изготовят партию от 5 единиц на дизайн.
+        </p>
+      </section>
+      <Parallax
+        bgImage={require('../../assets/bg-lines.avif')}
+        bgImageAlt="Картинка на фоне"
+        strength={600}
+      >
+        <div className="parallax">
+          <div className="parallax-items-big">
+            {fifththParallax.map((img) => (
+              <ParallaxEffect key={img.id} image={img.image} alt={img.alt} />
+            ))}
+          </div>
+        </div>
+      </Parallax>
+      <section className="meeting">
+        <p>
+          Чтобы забронировать время встречи или примерки, свяжитесь с нами по
+          одному из указанных ниже способов.
+        </p>
+      </section>
     </main>
   );
 }
