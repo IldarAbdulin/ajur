@@ -1,0 +1,58 @@
+.footer-sewing {
+  padding: 1px 0;
+  background: #dbbcc5;
+}
+.footer-sewing h2 {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.footer-sewing.p {
+  padding: 30px 0;
+}
+.footer-sewing p {
+  text-align: center;
+  font-weight: 500;
+  color: #555555;
+  margin: 5px 0;
+}
+.footer-parallax {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+.footer-parallax-title {
+  padding: 5px 20px;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 20px;
+  background: #fff;
+}
+.footer-parallax-title p {
+  width: 100%;
+  color: #555555db;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.footer {
+  background: #000;
+}
+.footer-items {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-items div {
+  display: flex;
+  gap: 20px;
+}
+.footer p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
