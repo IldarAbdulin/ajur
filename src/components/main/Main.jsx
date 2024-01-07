@@ -237,6 +237,7 @@ export default function Main() {
         bgImage={require('../../assets/bg-lines.avif')}
         bgImageAlt="Картинка на фоне"
         strength={600}
+        className="parallax-parent"
       >
         <div className="parallax">
           <div className="parallax-items">
@@ -404,7 +405,7 @@ export default function Main() {
         </Swiper>
         <Swiper
           onSwiper={setThumbsSwiper}
-          spaceBetween={0}
+          spaceBetween={10}
           slidesPerView={10}
           freeMode={true}
           watchSlidesProgress={true}

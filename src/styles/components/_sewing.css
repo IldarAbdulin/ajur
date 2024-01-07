@@ -30,3 +30,30 @@
   width: 50%;
   margin: 0 auto;
 }
+@media (max-width: 1000px) {
+  .sewing-item {
+    width: 50%;
+  }
+}
+@media (max-width: 950px) {
+  .sewing-items {
+    text-align: center;
+  }
+  .sewing-item {
+    width: 100%;
+  }
+  .sewing-item p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .sewing h2 {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .sewing h2 {
+    width: 100%;
+    font-size: 20px;
+  }
+}

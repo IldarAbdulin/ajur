@@ -68,3 +68,28 @@
   object-fit: cover;
   cursor: pointer;
 }
+@media (max-width: 1425px) {
+  .portfolio-works-swiper2 {
+    width: 68%;
+  }
+}
+@media (max-width: 1220px) {
+  .portfolio-works-swiper2 {
+    width: 75%;
+  }
+}
+@media (max-width: 1060px) {
+  .portfolio-works-swiper2 {
+    width: 85%;
+  }
+}
+@media (max-width: 920px) {
+  .portfolio-works .portfolio-works-swiper2 {
+    display: none;
+  }
+}
+@media (max-width: 850px) {
+  .portfolio p {
+    width: 80%;
+  }
+}

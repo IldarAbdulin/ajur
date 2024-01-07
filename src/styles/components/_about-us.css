@@ -30,3 +30,11 @@
 .about-us p:nth-child(6) {
   width: 62%;
 }
+@media (max-width: 905px) {
+  .about-us h2 {
+    font-size: 28px;
+  }
+  .about-us p {
+    width: 95% !important;
+  }
+}

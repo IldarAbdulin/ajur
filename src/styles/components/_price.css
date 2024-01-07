@@ -22,7 +22,7 @@
   width: 44%;
 }
 .price div p:nth-child(3) {
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
 }
 .price p {
@@ -76,4 +76,17 @@
 .price-work-prices p {
   color: #555;
   font-weight: 400;
+}
+@media (max-width: 1000px) {
+  .price p {
+    width: 70% !important;
+  }
+  .price-works .price-work {
+    width: 80%;
+  }
+}
+@media (max-width: 650px) {
+  .price p {
+    width: 90% !important;
+  }
 }

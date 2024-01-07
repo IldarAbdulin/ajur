@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Modal({ modal, setModal }) {
+export default function Modal({ setModal }) {
   return (
     <section className="modal" onClick={() => setModal(false)}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
