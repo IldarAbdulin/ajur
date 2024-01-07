@@ -85,3 +85,11 @@
     width: 90%;
   }
 }
+@media (max-width: 420px) {
+  .footer-parallax {
+    height: 100%;
+  }
+  .footer-parallax-title {
+    width: 80%;
+  }
+}

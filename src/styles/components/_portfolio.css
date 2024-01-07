@@ -93,3 +93,9 @@
     width: 80%;
   }
 }
+@media (max-width: 400px) {
+  .portfolio-works-swiper {
+    width: 330px;
+    height: 45vh;
+  }
+}
