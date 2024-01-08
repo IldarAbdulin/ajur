@@ -1,5 +1,9 @@
 @import './components/_all.css';
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -16,6 +20,28 @@ body {
   font-size: 18px;
   width: 40%;
   margin: 0 auto;
+}
+.arrow-up {
+  z-index: 100;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000000;
+  background: #000;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  width: 30px;
+  transition: 0.3s;
+}
+.arrow-up:hover > svg path {
+  fill: #161616;
+}
+.arrow-up:hover {
+  background: #d7d7d7;
 }
 @media (max-width: 900px) {
   .meeting p {

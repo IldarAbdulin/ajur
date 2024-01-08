@@ -112,7 +112,7 @@ const arrOfPrices = [
 export default function Price() {
   return (
     <>
-      <section className="price">
+      <section id="price" className="price">
         <h2>Прайс-лист</h2>
         <div>
           <p>

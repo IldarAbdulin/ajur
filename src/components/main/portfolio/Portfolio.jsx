@@ -3,7 +3,7 @@ import React from 'react';
 export default function Portfolio() {
   return (
     <>
-      <section className="portfolio">
+      <section id="portfolio" className="portfolio">
         <h2>ПОРТФОЛИО</h2>
         <p>
           Мы размещаем работы тех брендов, которые дают согласие на публикацию.

@@ -55,7 +55,7 @@ export default function Header() {
   return (
     <>
       {' '}
-      <header>
+      <header id="header">
         <section className="header__title">
           <h1>Швейное производство полного цикла в Москве</h1>
         </section>
@@ -105,11 +105,9 @@ export default function Header() {
                 <a href="#price">Цены</a>
                 <a href="#services">Услуги</a>
                 <a href="#portfolio">Портфолио</a>
-                <a href="#patterns">Готовые лекала</a>
-                <a href="#Embroidery">Вышивка/печать</a>
+                <a href="#embroidery">Вышивка/печать</a>
                 <a href="#contacts">Контакты</a>
                 <a href="#vacancies">Вакансии</a>
-                <a href="#blog">Блог</a>
               </nav>
             </section>
             <section className="burger-menu__social-links">
@@ -240,11 +238,9 @@ export default function Header() {
             <a href="#price">Цены</a>
             <a href="#services">Услуги</a>
             <a href="#portfolio">Портфолио</a>
-            <a href="#patterns">Готовые лекала</a>
-            <a href="#Embroidery">Вышивка/печать</a>
+            <a href="#embroidery">Вышивка/печать</a>
             <a href="#contacts">Контакты</a>
             <a href="#vacancies">Вакансии</a>
-            <a href="#blog">Блог</a>
           </nav>
         </section>
         <section className="header__swiper">

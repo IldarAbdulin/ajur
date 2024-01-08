@@ -8,14 +8,25 @@
   font-size: 30px;
   font-weight: 600;
 }
-.footer-sewing.p {
+.footer-sewing.nav {
   padding: 30px 0;
 }
-.footer-sewing p {
+.footer-sewing.nav nav {
+  text-align: center;
+}
+.footer-sewing.nav nav div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+}
+.footer-sewing.nav nav div {
+  margin: 5px 0;
+}
+.footer-sewing a {
+  text-decoration: none;
   text-align: center;
   font-weight: 500;
   color: #555555;
-  margin: 5px 0;
+  margin: 5px;
 }
 .footer-parallax {
   height: 60vh;

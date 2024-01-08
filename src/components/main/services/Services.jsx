@@ -6,7 +6,7 @@ import SecondDress from '../../../assets/projects/3.jpg';
 
 export default function Services() {
   return (
-    <section className="services">
+    <section id="services" className="services">
       <h2>Наши услуги</h2>
       <p>
         Мы берем на себя все этапы производства коллекции, чтобы запуск вашего
